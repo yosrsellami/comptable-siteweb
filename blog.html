@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        
+            background-image: url(img/article.webp);
+            background-size: cover;
+          
+        }
+        h1 {
+            color: #CAA3EF;
+        }
+        form {
+            margin-top: 30px;
+            margin-left: 38%;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        textarea {
+            width: 400px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 8px 12px;
+            background-color: #3133ad;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-left: 20%;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+    <center><h1>Ecrire votre article</h1></center>
+
+    <!-- Form for creating articles -->
+    <form method="POST" action="blog.php" >
+        
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title" required><br>
+
+        <label for="content">Content:</label><br>
+        <textarea name="content" id="content" rows="4" cols="50" required></textarea><br>
+       
+        <input type="submit" value="sauvgarder">
+    </form>
+</body>
+</html>

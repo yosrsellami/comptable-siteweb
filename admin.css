@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(249, 247, 245);
+    font-family: 'Times New Roman', Times, serif;
+    color: #0d0c0c;
+    margin:0px;
+    padding: 0px auto;
+ }
+ .block{
+     background-color: rgb(198, 162, 162);
+     color:rgb(171, 104, 104);
+     font-size: 20px;
+     width: 300px;
+     margin: 15px;
+     display: inline-block;
+     padding: 10px;
+ }
+ span{
+     color: rgb(213, 220, 218);
+ }
+ .container{
+    width: 1500px;
+    margin: 0em auto;
+ }
